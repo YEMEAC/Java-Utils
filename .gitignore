@@ -1,0 +1,15 @@
+**/bower_components
+**/luceneIndex
+**/node_modules
+**/overlays
+**/projectFilesBackup*
+**/target
+**/webapp_build
+**/.DS_Store
+**/*.idea
+**/*.orig
+**/*.iml
+**/*.ipr
+**/*.iws
+**/*.log
+**/*.log.*
