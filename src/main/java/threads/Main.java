@@ -2,6 +2,10 @@ package threads;
 
 /**
  * @author Yeison Melo {@literal <mailto:yeison.melo@cabonline.com/>}
+ *  * A apart of the defaul thread java creates for the execution of the program.
+ * We create a second one passssing the runnable that will be executed by this new thread.
+ * T.join() makes that the current thread waits to for t to finish or during
+ * x smiliseconss (1000 heres)
  */
 
 public class Main {
@@ -24,5 +28,4 @@ public class Main {
             t.interrupt();
         }
     }
-
 }
